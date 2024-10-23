@@ -1,7 +1,11 @@
 import styles from "./StandardBtn.module.css";
 
-function StandardBtn() {
-  return <button className={styles.btnContainer}>Home</button>;
+function StandardBtn({ children, myOnClick }) {
+  return (
+    <button onClick={myOnClick} className={styles.btnContainer}>
+      {children}
+    </button>
+  );
 }
 
 export default StandardBtn;

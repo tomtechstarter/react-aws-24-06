@@ -7,7 +7,7 @@
   margin: 4px;
   transition: 200ms ease-in-out;
   &:hover {
-    background-color: chocolate;
+    background-color: burlywood;
     color: white;
     border: 0;
   }
